@@ -1,6 +1,7 @@
 library(shiny)
 library(shinythemes)
 library(leaflet)
+library(dplyr)
 
 fish_tracking<-read.csv("data/fish_tracking.csv", header= TRUE)
 

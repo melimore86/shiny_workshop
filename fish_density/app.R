@@ -2,7 +2,7 @@ library(shiny)
 library(shinythemes)
 library(ggplot2)
 library(dplyr)
-library(ggridges)
+
 
 fish_weight<-read.csv("data/fish_weight.csv", header= TRUE)
 
