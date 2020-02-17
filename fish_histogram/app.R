@@ -16,7 +16,7 @@ ui <- fluidPage(theme = shinytheme("cerulean"),
   sidebarPanel(
   selectInput("fish", label = h3("Select Fish Species"), 
               names(fish_data), multiple = FALSE,
-              selected = "AMRE")),
+              selected = "SNOOK")),
 
   
   # Show a plot of the generated distribution
@@ -32,8 +32,6 @@ server <- function(input, output) {
   
   output$fishPlot <- renderPlot({
     
-    
-
     ggplot(data = fish_data, aes_string(x=input$fish, fill= input$fish)) +
       geom_histogram(stat= "count", bins=10, aes(fill= input$fish)) +
       theme_classic() 
