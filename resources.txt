@@ -1,3 +1,17 @@
 Widget Gallery
 https://shiny.rstudio.com/gallery/widget-gallery.html
 
+Shiny Themes
+https://rstudio.github.io/shinythemes/
+
+Layout Guide
+https://shiny.rstudio.com/articles/layout-guide.html
+
+Shiny Tutorial
+https://shiny.rstudio.com/tutorial/written-tutorial/lesson1/
+
+Leaftlet Example
+https://rstudio.github.io/leaflet/shiny.html
+
+Complete Leaflet Base Maps
+http://leaflet-extras.github.io/leaflet-providers/preview/index.html
