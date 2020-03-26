@@ -34,7 +34,7 @@ server <- function(input, output) {
    
   output$fishmap <- renderLeaflet({
     leaflet() %>% 
-      addProviderTiles("Esri")%>%
+      addProviderTiles("OpenTopoMap")%>%
       setView(-83.09, 29.25, 12)
   })
   
